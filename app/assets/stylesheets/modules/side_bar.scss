@@ -18,13 +18,12 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-
-    .header__name{
+    &__name{
       color:white;
       justify-content: space-between;
       align-items: center;
     }
-    .header__lists {
+    &__lists {
       display: inline-block;
       .list {
         display: inline-block;
