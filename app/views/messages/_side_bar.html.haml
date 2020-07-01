@@ -1,0 +1,29 @@
+.side-bar
+  .side-bar__header
+    .side-header__box
+      %h3.header__name
+        ユーザーネーム
+      %ul.header__lists
+        %li.list 
+          = link_to '#' do
+            = icon('fa', 'edit',calss: 'icon')
+        %li.list 
+          = link_to '#' do 
+            = icon('fa', 'cog',class: 'icon')   
+
+  .groups 
+    .group
+      .group__name
+        グループ名
+      .group__message
+        新着メッセージ
+    .group
+      .group__name
+        グループ名
+      .group__message
+        新着メッセージ
+    .group
+      .group__name
+        ユーザーネーム
+      .group__message
+        新着メッセージ
