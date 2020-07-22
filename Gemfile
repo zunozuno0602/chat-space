@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+gem 'pry-rails'
+# gem 'devise'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -55,3 +57,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'font-awesome-sass'
 
 gem "haml-rails"
+
+gem 'devise'
